@@ -106,6 +106,13 @@ function update() {
     } else {
         homeIcon.style.right = "250px";
     }
+
+    if (windowScroll < 40) {
+        nav.forEach((e) => {
+            e.classList.remove("active");
+        });
+        nav[0].classList.add("active");
+    }
 }
 window.onscroll = update;
 window.onload = update;
