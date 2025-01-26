@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Website deign</title>
+    </head>
+    <body>
+        <!-- start setting box -->
+        <div class="overlay"></div>
+        <div class="settings-box">
+            <div class="gear-icon icon">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="home-icon icon">
+                <a href="#landing"></a>
+                <i class="fa-solid fa-house icon"> </i>
+            </div>
+            <div class="settings-container">
+                <div class="option-box">
+                    <h3>Colors</h3>
+                    <ul class="color-list">
+                        <li data-color="#0796e2" class="active"></li>
+                        <li data-color="#da2f2f"></li>
+                        <li data-color="#daa400"></li>
+                        <li data-color="green"></li>
+                        <li data-color="#0600bb"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h3>Random backgrounds</h3>
+                    <div class="choose-ran">
+                        <input
+                            class="yes"
+                            type="radio"
+                            name="random"
+                            id="yes-opt"
+                        />
+                        <label for="yes-opt">On</label>
+                        <input
+                            class="no"
+                            type="radio"
+                            name="random"
+                            id="no-opt"
+                        />
+                        <label for="no-opt">Off</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- start landing page -->
+        <div class="landing-page" id="landing">
+            <div class="overlay"></div>
+            <div class="header-div">
+                <div class="logo">
+                    <img src="imgs/icon.png" alt="" />
+                    Yahya website
+                </div>
+                <ul class="list">
+                    <li><a href="#" class="active">home </a></li>
+                    <li><a href="#about-us">about </a></li>
+                    <li><a href="#our-services">services </a></li>
+                    <li><a href="#our-skills">skills </a></li>
+                    <li><a href="#contact-us">contact </a></li>
+                </ul>
+            </div>
+            <div class="introduction-text">
+                <div class="landing-logo">
+                    <img src="imgs/icon.png" />
+                </div>
+                <h1>Hello world</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                    voluptatibus dolores repellendus ipsa ullam repudiandae
+                    pariatur impedit, tempora veniam assumenda atque, accusamus
+                    illum debitis ratione, recusandae ipsam a corrupti
+                    doloremque.
+                </p>
+            </div>
+            <div></div>
+        </div>
+        <!-- end landing page -->
+
+        <!-- start about us -->
+        <div class="about-us container" id="about-us">
+            <div class="text-box">
+                <h2>About us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero perferendis mollitia eveniet nihil facilis temporibus
+                    fuga enim veritatis corporis? Optio, aspernatur. Fugit,
+                    voluptas. Consectetur quae, corrupti quaerat perferendis
+                    iure qui?
+                </p>
+            </div>
+            <div class="image-box">
+                <img src="imgs/about-us.jpg" alt="" />
+            </div>
+        </div>
+        <!-- end about us -->
+
+        <!-- start skills -->
+        <div class="fill">
+            <div class="skills container" id="our-skills">
+                <h2>Skills</h2>
+                <div class="skill-box">
+                    <span class="skill-name">HTML</span>
+                    <div class="skill-percent" data-percent="80%">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">CSS</span>
+                    <div class="skill-percent" data-percent="90%">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-percent" data-percent="70%">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">C++</span>
+                    <div class="skill-percent" data-percent="3%">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">cooking</span>
+                    <div class="skill-percent" data-percent="55%">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">Elden ring</span>
+                    <div class="skill-percent" data-percent="100%">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end skills -->
+
+        <!-- start gallery -->
+        <div class="gallary container">
+            <h2>Our Gallary</h2>
+            <div class="images-box">
+                <img src="https://picsum.photos/1980/1080?random=1" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=2" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=3" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=4" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=5" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=6" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=7" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=8" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=9" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=10" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=11" alt="" />
+                <img src="https://picsum.photos/1980/1080?random=12" alt="" />
+            </div>
+        </div>
+        <!-- end gallery -->
+
+        <!-- start features -->
+        <div class="fill">
+            <div class="features container" id="our-services">
+                <h2>Our services</h2>
+                <div class="grid-features">
+                    <div class="feat-box">
+                        <img src="imgs/Icon_01.png" alt="" />
+                        <h4>Graphs</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/Icon_02.png" alt="" />
+                        <h4>Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/Icon_03.png" alt="" />
+                        <h4>Colors</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/Icon_04.png" alt="" />
+                        <h4>Chars</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/Icon_05.png" alt="" />
+                        <h4>Marketing</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/Icon_06.png" alt="" />
+                        <h4>Photography</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end features -->
+
+        <!-- start contact us -->
+        <div class="contact-us container" id="contact-us">
+            <h2>Contact us</h2>
+            <form action="" class="cont">
+                <div class="data">
+                    <input type="text" placeholder="Your Name" />
+                    <input type="tel" placeholder="Your phone" />
+                    <input type="email" placeholder="Your Email" />
+                    <input type="text" placeholder="Subject" />
+                </div>
+                <div class="comment">
+                    <textarea name="" id=""></textarea>
+                    <input type="submit" value="send" />
+                </div>
+            </form>
+        </div>
+        <!-- end contact us -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
