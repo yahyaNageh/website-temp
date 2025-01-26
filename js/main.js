@@ -146,9 +146,16 @@ gallary.forEach((img) => {
         popup.append(exit);
         exit.innerHTML = "X";
         exit.classList.add("exit-button");
-        exit.addEventListener("click", () => {
+        function del() {
             popup.remove();
             overlay.remove();
+        }
+        exit.addEventListener("click", del);
+        overlay.addEventListener("click", del);
+        window.addEventListener("keydown", (e) => {
+            if ((e.key = "Escape")) {
+                del();
+            }
         });
     });
 });
